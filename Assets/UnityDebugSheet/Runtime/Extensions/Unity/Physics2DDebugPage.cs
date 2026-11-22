@@ -1,6 +1,7 @@
 using System.Text;
 using UnityEngine;
 
+#if UNITY_DEBUG_SHEET_PHYSICS_2D
 namespace UnityDebugSheet.Runtime.Extensions.Unity
 {
     public sealed class Physics2DDebugPage : PropertyListDebugPageBase<Physics2D>
@@ -61,3 +62,4 @@ namespace UnityDebugSheet.Runtime.Extensions.Unity
         }
     }
 }
+#endif

@@ -13,6 +13,12 @@
     "defineConstraints": [
         "!EXCLUDE_UNITY_DEBUG_SHEET"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.physics2d",
+            "expression": "1.0.0",
+            "define": "UNITY_DEBUG_SHEET_PHYSICS_2D"
+        }
+    ],
     "noEngineReferences": false
 }
